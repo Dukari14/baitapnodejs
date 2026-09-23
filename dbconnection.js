@@ -1,5 +1,6 @@
 const mysql = require('mysql2');
 
+// Tạo đường dẫn đến database
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
